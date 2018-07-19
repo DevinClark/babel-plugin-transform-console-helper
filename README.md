@@ -5,7 +5,7 @@ A babel plugin that adds the parent function to console statements, and the name
 ## Installation & Usage
 
 ```
-npm i -S greenlet
+npm i -S babel-plugin-transform-console-helper
 ```
 
 .babelrc
