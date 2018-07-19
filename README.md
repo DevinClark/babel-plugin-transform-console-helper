@@ -2,6 +2,8 @@
 
 A babel plugin that adds the parent function to console statements, and the name of each variable before the value. My first attempt at creating a [babel plugin](https://babeljs.io/).
 
+![example code](./docs/example.png)
+
 ## Installation & Usage
 
 ```
