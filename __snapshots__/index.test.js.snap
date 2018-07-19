@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not change non-console logging functions 1`] = `
+"
+function onChange(a) {}
+
+onChange(a);
+window.setTimeout(onChange, 500);
+console.group(a);
+console.groupEnd(a);"
+`;
+
+exports[`works 1`] = `
+"
+console.log(\\"a\\", a);
+console.warn(\\"a\\", a);
+console.info(\\"a\\", a);
+console.error(\\"a\\", a);"
+`;
+
+exports[`works with a parent 1`] = `
+"
+function onChange() {
+  console.log('onChange()', ...things, 'a', a, 'b', b, 'c', 4);
+  console.warn('onChange()', ...things, 'a', a, 'b', b, 'c', 4);
+  console.info('onChange()', ...things, 'a', a, 'b', b, 'c', 4);
+  console.error('onChange()', ...things, 'a', a, 'b', b, 'c', 4);
+}"
+`;

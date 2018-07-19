@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-transform-console-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "jest": "23.3.0",
+    "prettier": "1.13.7"
+  }
+}
