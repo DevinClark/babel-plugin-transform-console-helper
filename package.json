@@ -1,15 +1,20 @@
 {
   "name": "babel-plugin-transform-console-helper",
   "version": "1.0.0",
-  "description": "",
+  "description":
+    "A babel plugin that adds the parent function to console statements, and the name of each variable before the value.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["babel", "console"],
+  "author": {
+    "name": "Devin Clark",
+    "email": "github@devinenergy.com",
+    "url": "https://devin-clark.com"
+  },
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
